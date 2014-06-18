@@ -55,7 +55,7 @@ public class V1_inventory {
 
 			returnString = json.toString();
 			rb = Response.ok(returnString).build();
-
+			
 		}
 		catch (Exception e) {
 			e.printStackTrace();
